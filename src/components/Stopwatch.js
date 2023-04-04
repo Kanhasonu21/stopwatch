@@ -24,7 +24,7 @@ const StopWatch = () => {
 
   const resetTimer = () => {
     clearInterval(timerRef.current);
-    timerRef.current = null;
+    timerRef.current = ngull;
     setTimer(0);
   };
 
